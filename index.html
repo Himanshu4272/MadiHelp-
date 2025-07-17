@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediHelp!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="animated-bg"></div>
+    <!-- Animated SVG Medical Cross -->
+    <svg class="floating-cross" viewBox="0 0 60 60" width="60" height="60">
+        <rect x="25" y="10" width="10" height="40" rx="5" fill="#38bdf8">
+            <animate attributeName="y" values="10;15;10" dur="2s" repeatCount="indefinite"/>
+        </rect>
+        <rect x="10" y="25" width="40" height="10" rx="5" fill="#38bdf8">
+            <animate attributeName="x" values="10;15;10" dur="2s" repeatCount="indefinite"/>
+        </rect>
+    </svg>
+    <!-- Animated Heart -->
+    <div class="animated-heart">
+        <svg viewBox="0 0 32 29.6" width="40" height="36">
+            <path d="M23.6,0c-2.7,0-5.1,1.3-6.6,3.3C15.5,1.3,13.1,0,10.4,0C4.7,0,0,4.7,0,10.4c0,6.1,5.6,11.1,14.1,18.7l1.3,1.2l1.3-1.2C26.4,21.5,32,16.5,32,10.4C32,4.7,27.3,0,23.6,0z" fill="#ef4444">
+                <animateTransform attributeName="transform" type="scale" values="1;1.15;1" dur="1.2s" repeatCount="indefinite"/>
+            </path>
+        </svg>
+    </div>
+    <nav class="navbar">
+        <div class="nav-title">MediHelp!</div>
+        <div class="nav-right">
+            <ul class="nav-links">
+                <li><a href="#" class="nav-link active" data-i18n="home">Home</a></li>
+                <li><a href="contact.html" class="nav-link" data-i18n="contact_us">Contact Us</a></li>
+            </ul>
+            <div class="search-state-box nav-search-box">
+                <input type="text" id="state-search" placeholder="Search your state..." autocomplete="off">
+                <ul id="search-suggestions" class="suggestions-list"></ul>
+            </div>
+            <div class="lang-dropdown">
+                <button id="lang-dropdown-btn" class="lang-btn">🌐 <span id="lang-selected">EN</span> ▼</button>
+                <div id="lang-dropdown-list" class="lang-dropdown-list">
+                    <div class="lang-option" data-lang="en">English</div>
+                    <div class="lang-option" data-lang="hi">हिंदी</div>
+                </div>
+            </div>
+            <button id="dark-toggle" class="dark-toggle" title="Toggle dark mode">🌙</button>
+        </div>
+    </nav>
+    <div class="container fade-in">
+        <div class="state-select state-select-top">
+            <label for="state" data-i18n="select_state">Select State:</label>
+            <select id="state">
+                <option value="">--Select--</option>
+                <!-- States will be populated by JS -->
+            </select>
+        </div>
+        <h1 class="main-title" data-i18n="medihelp">MediHelp! <span class="pulse">💙</span></h1>
+        <div class="hero-section">
+            <h2 data-i18n="top_5_hospitals">India's Top 5 Hospitals</h2>
+            <div id="top-hospitals" class="top-hospitals-list"></div>
+        </div>
+        <!-- Hospital sections removed from main page -->
+    </div>
+    <!-- Contact section removed -->
+    <button id="back-to-top" title="Back to Top">↑</button>
+    <section class="faq-section">
+        <h2 data-i18n="faq_heading">Frequently Asked Questions</h2>
+        <div class="faq-list">
+            <div class="faq-item"><b data-i18n="faq_q1">How do I find hospitals in my state?</b><br><span data-i18n="faq_a1">Use the search bar or dropdown to select your state.</span></div>
+            <div class="faq-item"><b data-i18n="faq_q2">How do I contact a hospital?</b><br><span data-i18n="faq_a2">Click on a hospital card to see contact details and location.</span></div>
+            <div class="faq-item"><b data-i18n="faq_q3">How do I switch languages?</b><br><span data-i18n="faq_a3">Use the 🌐 button in the navbar to switch between English and Hindi.</span></div>
+            <div class="faq-item"><b data-i18n="faq_q4">How do I contact MediHelp!?</b><br><span data-i18n="faq_a4">Use the Contact Us page from the navigation bar.</span></div>
+        </div>
+    </section>
+    <div id="modal-overlay" class="modal-overlay"></div>
+    <div id="modal" class="modal"></div>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-left">&copy; 2024 MediHelp! All rights reserved.</div>
+            <div class="footer-links">
+                <a href="index.html">Home</a> |
+                <a href="contact.html">Contact Us</a>
+            </div>
+            <div class="footer-social">
+                <a href="#" title="Twitter" aria-label="Twitter">🐦</a>
+                <a href="#" title="Facebook" aria-label="Facebook">📘</a>
+                <a href="#" title="Instagram" aria-label="Instagram">📸</a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html> 

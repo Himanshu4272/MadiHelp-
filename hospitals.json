@@ -1,0 +1,810 @@
+{
+  "topHospitals": [
+    {
+      "name": "All India Institute of Medical Sciences (AIIMS), Delhi",
+      "contact": "+91 11 2658 8500",
+      "email": "info@aiims.edu",
+      "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224345.8395953667!2d77.06889999999999!3d28.527280000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3a7e5b1b1b1%3A0x1e1e1e1e1e1e1e1e!2sAIIMS%20Delhi!5e0!3m2!1sen!2sin!4v1680000000000!5m2!1sen!2sin"
+    },
+    {
+      "name": "Medanta - The Medicity, Gurugram",
+      "contact": "+91 124 414 1414",
+      "email": "info@medanta.org",
+      "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224345.8395953667!2d77.06889999999999!3d28.527280000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d18a1e1e1e1e1%3A0x1e1e1e1e1e1e1e1e!2sMedanta%20-%20The%20Medicity!5e0!3m2!1sen!2sin!4v1680000000001!5m2!1sen!2sin"
+    },
+    {
+      "name": "Fortis Memorial Research Institute, Gurugram",
+      "contact": "+91 124 716 2200",
+      "email": "info@fortishealthcare.com",
+      "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224345.8395953667!2d77.06889999999999!3d28.527280000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d18a1e1e1e1e1%3A0x1e1e1e1e1e1e1e1e!2sFortis%20Memorial%20Research%20Institute!5e0!3m2!1sen!2sin!4v1680000000002!5m2!1sen!2sin"
+    },
+    {
+      "name": "Sir Ganga Ram Hospital, Delhi",
+      "contact": "+91 11 2575 0000",
+      "email": "info@sgrh.com",
+      "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224345.8395953667!2d77.06889999999999!3d28.527280000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3a7e5b1b1b1%3A0x1e1e1e1e1e1e1e1e!2sSir%20Ganga%20Ram%20Hospital!5e0!3m2!1sen!2sin!4v1680000000003!5m2!1sen!2sin"
+    },
+    {
+      "name": "Apollo Hospitals, Delhi",
+      "contact": "+91 11 2692 5858",
+      "email": "info@apollohospitals.com",
+      "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224345.8395953667!2d77.06889999999999!3d28.527280000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3a7e5b1b1b1%3A0x1e1e1e1e1e1e1e1e!2sApollo%20Hospitals!5e0!3m2!1sen!2sin!4v1680000000004!5m2!1sen!2sin"
+    }
+  ],
+  "states": [
+    "Andaman and Nicobar Islands", "Arunachal Pradesh", "Assam", "Bihar", "Chandigarh", "Chhattisgarh", "Delhi", "Goa", "Gujarat", "Haryana", "Himachal Pradesh", "Jammu and Kashmir", "Jharkhand", "Ladakh", "Lakshadweep", "Madhya Pradesh", "Maharashtra", "Manipur", "Meghalaya", "Mizoram", "Nagaland", "Odisha", "Punjab", "Rajasthan", "Sikkim", "Tripura", "Uttar Pradesh", "Uttarakhand", "West Bengal"
+  ],
+  "hospitals": [
+    {
+      "state": "Andaman and Nicobar Islands",
+      "hospitals": [
+        {
+          "name": "G B Pant Hospital",
+          "type": "government",
+          "contact": "03192-245119",
+          "email": "gbpant@andaman.gov.in",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3912.123456789!2d92.745678!3d11.667890!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x308893b1b1b1b1b1%3A0x123456789abcdef!2sG%20B%20Pant%20Hospital!5e0!3m2!1sen!2sin!4v1680000000000!5m2!1sen!2sin"
+        },
+        {
+          "name": "Primary Health Centre, Port Blair",
+          "type": "government",
+          "contact": "03192-234567",
+          "email": "phcportblair@andaman.gov.in",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3912.234567890!2d92.746789!3d11.668901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x308893b2b2b2b2b2%3A0xabcdefabcdefabcd!2sPrimary%20Health%20Centre%20Port%20Blair!5e0!3m2!1sen!2sin!4v1680000000001!5m2!1sen!2sin"
+        },
+        {
+          "name": "Primary Health Centre, Havelock",
+          "type": "government",
+          "contact": "03192-223344",
+          "email": "phchavelock@andaman.gov.in",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3912.345678901!2d92.747890!3d11.669012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x308893b3b3b3b3b3%3A0xabcdefabcdefabcd!2sPrimary%20Health%20Centre%20Havelock!5e0!3m2!1sen!2sin!4v1680000000002!5m2!1sen!2sin"
+        },
+        {
+          "name": "Government Hospital, Radha Nagar",
+          "type": "government",
+          "contact": "03192-998877",
+          "email": "govhosp.radhanagar@andaman.gov.in",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3912.456789012!2d92.748901!3d11.670123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x308893b4b4b4b4b4%3A0xabcdefabcdefabcd!2sGovernment%20Hospital%20Radha%20Nagar!5e0!3m2!1sen!2sin!4v1680000000003!5m2!1sen!2sin"
+        },
+        {
+          "name": "Aayushman Arogya Mandir, Govind Nagar",
+          "type": "government",
+          "contact": "03192-556677",
+          "email": "aayushman.govindnagar@andaman.gov.in",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3912.567890123!2d92.749012!3d11.671234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x308893b5b5b5b5b5%3A0xabcdefabcdefabcd!2sAayushman%20Arogya%20Mandir%20Govind%20Nagar!5e0!3m2!1sen!2sin!4v1680000000004!5m2!1sen!2sin"
+        },
+        {
+          "name": "Health 4u Multispeciality Clinic",
+          "type": "private",
+          "contact": "N/A",
+          "email": "N/A",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3912.000000000!2d92.750000!3d11.672000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x308893b6b6b6b6b6%3A0xabcdefabcdefabcd!2sHealth%204u%20Multispeciality%20Clinic!5e0!3m2!1sen!2sin!4v1680000000005!5m2!1sen!2sin",
+          "description": "Known for a wide range of specialties including orthopedics, neuro psychiatry, deaddiction, ENT, and general cases like diabetes and thyroid problems. They boast full-time laboratory services and a physiotherapy unit. Reviews highlight their well-equipped facilities, modern technology, good staff support and excellent treatment."
+        },
+        {
+          "name": "Maricar Hospital",
+          "type": "private",
+          "contact": "N/A",
+          "email": "N/A",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3912.000000001!2d92.750001!3d11.672001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x308893b7b7b7b7b7%3A0xabcdefabcdefabcd!2sMaricar%20Hospital!5e0!3m2!1sen!2sin!4v1680000000006!5m2!1sen!2sin",
+          "description": "Receives positive feedback for its dedicated doctors and staff, available 24/7. Patients have expressed satisfaction with their treatment and recovery outcomes. They are equipped with facilities such as operation theaters, X-rays, and scanning services."
+        },
+        {
+          "name": "Swasthya Medical Centre's Maternity & Children's Hospital",
+          "type": "private",
+          "contact": "N/A",
+          "email": "N/A",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3912.000000002!2d92.750002!3d11.672002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x308893b8b8b8b8b8%3A0xabcdefabcdefabcd!2sSwasthya%20Medical%20Centre!5e0!3m2!1sen!2sin!4v1680000000007!5m2!1sen!2sin",
+          "description": "Specializes in obstetrics and gynecology, neonatology and pediatrics, and general surgery. It's a 15-bedded facility emphasizing specialized medical care and high-quality healthcare delivery. Reviewers praise the excellent care, courteous and helpful staff, and comfortable environment."
+        },
+        {
+          "name": "Dr Kamakshi Memorial Hospital",
+          "type": "private",
+          "contact": "N/A",
+          "email": "N/A",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3912.000000003!2d92.750003!3d11.672003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x308893b9b9b9b9b9%3A0xabcdefabcdefabcd!2sDr%20Kamakshi%20Memorial%20Hospital!5e0!3m2!1sen!2sin!4v1680000000008!5m2!1sen!2sin",
+          "description": "Known for its good healthcare and treatment. Patients appreciate the good behavior of the doctors and associates, and report reasonable rates for services."
+        },
+        {
+          "name": "Apollo Clinic",
+          "type": "private",
+          "contact": "N/A",
+          "email": "N/A",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3912.000000004!2d92.750004!3d11.672004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x308893bababababa%3A0xabcdefabcdefabcd!2sApollo%20Clinic!5e0!3m2!1sen!2sin!4v1680000000009!5m2!1sen!2sin",
+          "description": "Although technically a clinic, it's mentioned in the context of top private healthcare providers in Andaman, according to Justdial. Reviewers appreciate the friendly and skilled staff, excellent services, and top-notch facilities. They are praised for their professionalism and commitment to patient care. It's described as one of the best private hospitals in Port Blair, with cooperative and supportive staff, friendly doctors, faster treatment, and specialist availability."
+        }
+      ]
+    },
+    {
+      "state": "Delhi",
+      "hospitals": [
+        {
+          "name": "All India Institute of Medical Sciences (AIIMS), New Delhi",
+          "type": "government",
+          "contact": "+91-11-26588500 / 26588700",
+          "email": "director@aiims.edu",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.019013013839!2d77.2058833150836!3d28.5671709824427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3a2e2e2e2e2%3A0xabcdefabcdefabcd!2sAIIMS%20Delhi!5e0!3m2!1sen!2sin!4v1680000000001!5m2!1sen!2sin",
+          "description": "A premier government hospital and medical institution, AIIMS is known for its comprehensive medical services, research, and education. Located in Ansari Nagar, New Delhi."
+        },
+        {
+          "name": "Lok Nayak Hospital",
+          "type": "government",
+          "contact": "+91-11-2323 4455",
+          "email": "lnjp.delhi@gov.in",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.123456789!2d77.2345678!3d28.6456789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfde2e2e2e2e2%3A0xabcdefabcdefabcd!2sLok%20Nayak%20Hospital!5e0!3m2!1sen!2sin!4v1680000000002!5m2!1sen!2sin",
+          "description": "A large general hospital, one of the oldest and busiest in Delhi, providing a wide range of healthcare services, including specialized care in various departments."
+        },
+        {
+          "name": "Dr. Ram Manohar Lohia Hospital",
+          "type": "government",
+          "contact": "+91-11-23365525",
+          "email": "msrmlh.delhi@gov.in",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.789012345!2d77.2101234!3d28.6321234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3b2e2e2e2e2%3A0xabcdefabcdefabcd!2sDr.%20Ram%20Manohar%20Lohia%20Hospital!5e0!3m2!1sen!2sin!4v1680000000003!5m2!1sen!2sin",
+          "description": "A major government healthcare provider, offering services in multiple specialties and known for its role in public health. Located near Connaught Place, New Delhi."
+        },
+        {
+          "name": "Safdarjung Hospital",
+          "type": "government",
+          "contact": "+91-11-26730000",
+          "email": "ms-sjh@nic.in",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.019013013839!2d77.2068833150836!3d28.5671709824427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3a2e2e2e2e2%3A0xabcdefabcdefabcd!2sSafdarjung%20Hospital!5e0!3m2!1sen!2sin!4v1680000000004!5m2!1sen!2sin",
+          "description": "A prominent teaching hospital with a large patient capacity and diverse medical services. Located near AIIMS, New Delhi."
+        },
+        {
+          "name": "Govind Ballabh Pant Hospital (G.B. Pant Hospital)",
+          "type": "government",
+          "contact": "+91-11-23234242",
+          "email": "director.gbpant@delhi.gov.in",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.123456789!2d77.2345678!3d28.6456789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfde2e2e2e2e2%3A0xabcdefabcdefabcd!2sGovind%20Ballabh%20Pant%20Hospital!5e0!3m2!1sen!2sin!4v1680000000005!5m2!1sen!2sin",
+          "description": "Specializing in cardiology and related fields, G.B. Pant Hospital is a well-regarded government institution focusing on cardiovascular health. Located at Jawaharlal Nehru Marg, New Delhi."
+        },
+        {
+          "name": "Indraprastha Apollo Hospitals",
+          "type": "private",
+          "contact": "+91-11-71791090",
+          "email": "info@apollohospitals.com",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.019013013839!2d77.2832182!3d28.5413093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce6ad13eaaa99%3A0x3bc07ad476bc6d77!2sIndraprastha%20Apollo%20Hospitals!5e0!3m2!1sen!2sin!4v1680000000006!5m2!1sen!2sin",
+          "description": "A leading private hospital in Delhi, Indraprastha Apollo Hospitals is known for its advanced technology, specialized departments, and high-quality patient care. Located in Sarita Vihar, New Delhi."
+        },
+        {
+          "name": "Max Healthcare (Max Super Speciality Hospital, Saket)",
+          "type": "private",
+          "contact": "+91-11-26515050",
+          "email": "info@maxhealthcare.com",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.019013013839!2d77.2198833150836!3d28.5271709824427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3a2e2e2e2e2%3A0xabcdefabcdefabcd!2sMax%20Super%20Speciality%20Hospital%20Saket!5e0!3m2!1sen!2sin!4v1680000000007!5m2!1sen!2sin",
+          "description": "With multiple facilities across Delhi, Max Healthcare offers a wide range of specialized medical services, including cancer care, cardiac sciences, and neurosciences."
+        },
+        {
+          "name": "Fortis Healthcare (Fortis Flt Lt Rajan Dhall Hospital, Vasant Kunj)",
+          "type": "private",
+          "contact": "+91-11-42776222",
+          "email": "enquiry@fortishealthcare.com",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.019013013839!2d77.1558833150836!3d28.5271709824427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3a2e2e2e2e2%3A0xabcdefabcdefabcd!2sFortis%20Flt%20Lt%20Rajan%20Dhall%20Hospital!5e0!3m2!1sen!2sin!4v1680000000008!5m2!1sen!2sin",
+          "description": "Fortis Hospital in Vasant Kunj and other locations in Delhi are known for their advanced medical infrastructure and comprehensive healthcare services."
+        },
+        {
+          "name": "Medanta - The Medicity (Gurugram)",
+          "type": "private",
+          "contact": "+91-124-4141414",
+          "email": "info@medanta.org",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.019013013839!2d77.0408833150836!3d28.4591709824427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3a2e2e2e2e2%3A0xabcdefabcdefabcd!2sMedanta%20The%20Medicity!5e0!3m2!1sen!2sin!4v1680000000009!5m2!1sen!2sin",
+          "description": "Located in Gurugram, just outside Delhi, Medanta is a multi-specialty hospital recognized for its advanced medical facilities and expertise in various specialties."
+        },
+        {
+          "name": "BLK-MAX Super Speciality Hospital",
+          "type": "private",
+          "contact": "+91-11-30403040",
+          "email": "info@blkhospital.com",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.019013013839!2d77.1908833150836!3d28.6471709824427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3a2e2e2e2e2%3A0xabcdefabcdefabcd!2sBLK-MAX%20Super%20Speciality%20Hospital!5e0!3m2!1sen!2sin!4v1680000000010!5m2!1sen!2sin",
+          "description": "This hospital offers a wide range of medical services, including specialized departments like cardiology, oncology, and neurology. Located at Pusa Road, New Delhi."
+        }
+      ]
+    },
+    { "state": "Maharashtra", "hospitals": [
+      { "name": "Bombay Hospital", "type": "private", "contact": "022-22067676", "email": "info@bombayhospital.com", "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224345.8395953667!2d72.819444!3d18.938771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce1e1e1e1e1e%3A0x1e1e1e1e1e1e1e1e!2sBombay%20Hospital!5e0!3m2!1sen!2sin!4v1680000000005!5m2!1sen!2sin" }
+    ]},
+    {
+      "state": "Arunachal Pradesh",
+      "hospitals": [
+        {
+          "name": "Tomo Riba Institute of Health and Medical Sciences (TRIHMS), Naharlagun",
+          "type": "government",
+          "contact": "0360-2350331, 0360-2350590",
+          "email": "trihmshospital@gmail.com",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3600.019073964019!2d93.6849973150122!3d27.1238890830177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3740e9e2e2e2e2e2%3A0x123456789abcdef!2sTomo%20Riba%20Institute%20of%20Health%20and%20Medical%20Sciences!5e0!3m2!1sen!2sin!4v1680000000000!5m2!1sen!2sin",
+          "description": "A prominent government medical college and hospital."
+        },
+        {
+          "name": "Ramakrishna Mission Hospital, Itanagar",
+          "type": "private",
+          "contact": "0360-2212262, 0360-2212263",
+          "email": "rkmhitanagar@gmail.com",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3561.527013839019!2d93.6066853150442!3d27.0843689830136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3740e9e2e2e2e2e2%3A0xabcdefabcdefabcd!2sRamakrishna%20Mission%20Hospital%2C%20Itanagar!5e0!3m2!1sen!2sin!4v1680000000001!5m2!1sen!2sin",
+          "description": "A well-regarded private hospital."
+        },
+        {
+          "name": "Heema Hospital, Itanagar",
+          "type": "private",
+          "contact": "0360-2217266, 9436045566",
+          "email": "heemahospital@gmail.com",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3561.527013839019!2d93.6066853150442!3d27.0843689830136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3740e9e2e2e2e2e2%3A0xabcdefabcdefabcd!2sHeema%20Hospital%2C%20Itanagar!5e0!3m2!1sen!2sin!4v1680000000002!5m2!1sen!2sin",
+          "description": "A private hospital with multiple branches."
+        },
+        {
+          "name": "Bakin Pertin General Hospital, Pasighat",
+          "type": "government",
+          "contact": "0368-2222345",
+          "email": "bpghpasighat@gmail.com",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3571.527013839019!2d95.3266853150442!3d28.0843689830136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3740e9e2e2e2e2e2%3A0xabcdefabcdefabcd!2sBakin%20Pertin%20General%20Hospital%2C%20Pasighat!5e0!3m2!1sen!2sin!4v1680000000003!5m2!1sen!2sin",
+          "description": "A government hospital."
+        },
+        {
+          "name": "General Hospital, Aalo (Along)",
+          "type": "government",
+          "contact": "03783-222234",
+          "email": "gh.aalo@gmail.com",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3571.527013839019!2d94.8066853150442!3d28.0843689830136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3740e9e2e2e2e2e2%3A0xabcdefabcdefabcd!2sGeneral%20Hospital%2C%20Aalo!5e0!3m2!1sen!2sin!4v1680000000004!5m2!1sen!2sin",
+          "description": "A government hospital."
+        },
+        {
+          "name": "BPGH Annexure District Hospital – Roing",
+          "type": "government",
+          "contact": "03803-222234",
+          "email": "dhroing@gmail.com",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3571.527013839019!2d95.8066853150442!3d28.0843689830136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3740e9e2e2e2e2e2%3A0xabcdefabcdefabcd!2sDistrict%20Hospital%2C%20Roing!5e0!3m2!1sen!2sin!4v1680000000005!5m2!1sen!2sin",
+          "description": "A government hospital."
+        },
+        {
+          "name": "District Hospital – Tawang",
+          "type": "government",
+          "contact": "03794-224432",
+          "email": "dhtawang@gmail.com",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3561.527013839019!2d91.8666853150442!3d27.5843689830136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3740e9e2e2e2e2e2%3A0xabcdefabcdefabcd!2sDistrict%20Hospital%2C%20Tawang!5e0!3m2!1sen!2sin!4v1680000000006!5m2!1sen!2sin",
+          "description": "A government hospital."
+        },
+        {
+          "name": "District Hospital – Ziro",
+          "type": "government",
+          "contact": "03788-224274",
+          "email": "dhziro@gmail.com",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3571.527013839019!2d93.8266853150442!3d27.5843689830136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3740e9e2e2e2e2e2%3A0xabcdefabcdefabcd!2sDistrict%20Hospital%2C%20Ziro!5e0!3m2!1sen!2sin!4v1680000000007!5m2!1sen!2sin",
+          "description": "A government hospital."
+        },
+        {
+          "name": "Chimpu State TB Hospital – Chimpu",
+          "type": "government",
+          "contact": "0360-2290539",
+          "email": "tbhchimpu@gmail.com",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3561.527013839019!2d93.6066853150442!3d27.0843689830136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3740e9e2e2e2e2e2%3A0xabcdefabcdefabcd!2sChimpu%20State%20TB%20Hospital!5e0!3m2!1sen!2sin!4v1680000000008!5m2!1sen!2sin",
+          "description": "A government hospital."
+        },
+        {
+          "name": "General Hospital – Tezu",
+          "type": "government",
+          "contact": "03804-222234",
+          "email": "ghtezu@gmail.com",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3571.527013839019!2d96.1288!3d27.9126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3740e9e2e2e2e2e2%3A0xabcdefabcdefabcd!2sGeneral%20Hospital%2C%20Tezu!5e0!3m2!1sen!2sin!4v1680000000009!5m2!1sen!2sin",
+          "description": "A government hospital."
+        }
+      ]
+    },
+    {
+      "state": "Assam",
+      "hospitals": [
+        {
+          "name": "Gauhati Medical College and Hospital (GMCH), Guwahati",
+          "type": "government",
+          "contact": "0361-2452244, 0361-7966378",
+          "email": "gmch-asm@nic.in",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3579.964282019019!2d91.7539433150192!3d26.1445189834537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375a5a1e0b0b0b0b%3A0xabcdefabcdefabcd!2sGauhati%20Medical%20College%20and%20Hospital!5e0!3m2!1sen!2sin!4v1680000000001!5m2!1sen!2sin",
+          "description": "A major tertiary care center and the largest hospital in the North-East."
+        },
+        {
+          "name": "Assam Medical College and Hospital (AMCH), Dibrugarh",
+          "type": "government",
+          "contact": "0373-2300080",
+          "email": "principalamch@rediffmail.com",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3579.964282019019!2d94.911962!3d27.472792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3740e9e2e2e2e2e2%3A0xabcdefabcdefabcd!2sAssam%20Medical%20College%20and%20Hospital!5e0!3m2!1sen!2sin!4v1680000000002!5m2!1sen!2sin",
+          "description": "A prominent government medical college and hospital in Dibrugarh."
+        },
+        {
+          "name": "Silchar Medical College & Hospital, Silchar",
+          "type": "government",
+          "contact": "03842-229110",
+          "email": "principalsmc@gmail.com",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3579.964282019019!2d92.793943!3d24.793518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3740e9e2e2e2e2e2%3A0xabcdefabcdefabcd!2sSilchar%20Medical%20College%20and%20Hospital!5e0!3m2!1sen!2sin!4v1680000000003!5m2!1sen!2sin",
+          "description": "The only referral hospital in southern Assam, serving Barak Valley and neighboring states."
+        },
+        {
+          "name": "Jorhat Medical College & Hospital, Jorhat",
+          "type": "government",
+          "contact": "0376-2300216",
+          "email": "principaljmch@gmail.com",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3579.964282019019!2d94.1960!3d26.7421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3740e9e2e2e2e2e2%3A0xabcdefabcdefabcd!2sJorhat%20Medical%20College%20and%20Hospital!5e0!3m2!1sen!2sin!4v1680000000004!5m2!1sen!2sin",
+          "description": "A government medical college and hospital serving Jorhat and neighboring districts."
+        },
+        {
+          "name": "Fakhruddin Ali Ahmed Medical College & Hospital, Barpeta",
+          "type": "government",
+          "contact": "03665-254003",
+          "email": "principalfaamc@gmail.com",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3579.964282019019!2d90.978943!3d26.322518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3740e9e2e2e2e2e2%3A0xabcdefabcdefabcd!2sFakhruddin%20Ali%20Ahmed%20Medical%20College%20and%20Hospital!5e0!3m2!1sen!2sin!4v1680000000005!5m2!1sen!2sin",
+          "description": "A government medical college and hospital in Barpeta, Assam."
+        },
+        {
+          "name": "Tezpur Medical College & Hospital, Tezpur",
+          "type": "government",
+          "contact": "03712-241555",
+          "email": "principal.tmc@gmail.com",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3579.964282019019!2d92.792943!3d26.652518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3740e9e2e2e2e2e2%3A0xabcdefabcdefabcd!2sTezpur%20Medical%20College%20and%20Hospital!5e0!3m2!1sen!2sin!4v1680000000006!5m2!1sen!2sin",
+          "description": "A government medical college and hospital in Tezpur, Assam."
+        },
+        {
+          "name": "Dr. Bhubaneswar Borooah Cancer Institute, Guwahati",
+          "type": "private",
+          "contact": "0361-2800500",
+          "email": "bbci_info@yahoo.co.in",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3579.964282019019!2d91.753943!3d26.144518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375a5a1e0b0b0b0b%3A0xabcdefabcdefabcd!2sDr.%20Bhubaneswar%20Borooah%20Cancer%20Institute!5e0!3m2!1sen!2sin!4v1680000000007!5m2!1sen!2sin",
+          "description": "A specialized cancer treatment hospital and research center."
+        },
+        {
+          "name": "Down Town Hospital, Guwahati",
+          "type": "private",
+          "contact": "+91 9864101111, +91 9864102222, +91 9854074073",
+          "email": "care@downtowngroup.org",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3579.964282019019!2d91.753943!3d26.144518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375a5a1e0b0b0b0b%3A0xabcdefabcdefabcd!2sDown%20Town%20Hospital!5e0!3m2!1sen!2sin!4v1680000000008!5m2!1sen!2sin",
+          "description": "A multi-specialty hospital offering a wide range of services."
+        },
+        {
+          "name": "Nemcare Hospital, Guwahati",
+          "type": "private",
+          "contact": "+91 8822201201, 0361-2469697",
+          "email": "info@nemcare.com",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3579.964282019019!2d91.753943!3d26.144518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375a5a1e0b0b0b0b%3A0xabcdefabcdefabcd!2sNemcare%20Hospital!5e0!3m2!1sen!2sin!4v1680000000009!5m2!1sen!2sin",
+          "description": "A well-regarded hospital in Guwahati, known for quality care."
+        },
+        {
+          "name": "Hayat Hospital, Guwahati",
+          "type": "private",
+          "contact": "+91 80110 03111, +91 88110 00123",
+          "email": "info@hayathospital.com",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3579.964282019019!2d91.753943!3d26.144518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375a5a1e0b0b0b0b%3A0xabcdefabcdefabcd!2sHayat%20Hospital!5e0!3m2!1sen!2sin!4v1680000000010!5m2!1sen!2sin",
+          "description": "A notable private hospital in Guwahati, offering super-specialty care."
+        }
+      ]
+    },
+    {
+      "state": "Bihar",
+      "hospitals": [
+        {
+          "name": "All India Institute of Medical Sciences (AIIMS), Patna",
+          "type": "government",
+          "contact": "+91-612-2451070",
+          "email": "admin@aiimspatna.org",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3609.964282019019!2d85.0391444!3d25.5629028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed58e2e2e2e2e2%3A0xabcdefabcdefabcd!2sAIIMS%20Patna!5e0!3m2!1sen!2sin!4v1680000000001!5m2!1sen!2sin",
+          "description": "A premier government medical institute and hospital, established in 2012, providing high-quality healthcare and medical education in Bihar."
+        },
+        {
+          "name": "Indira Gandhi Institute of Medical Sciences (IGIMS), Patna",
+          "type": "government",
+          "contact": "0612-2297099, 0612-2297631",
+          "email": "director@igims.org",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3609.964282019019!2d85.1675167!3d25.6079917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed58e2e2e2e2e2%3A0xabcdefabcdefabcd!2sIGIMS%20Patna!5e0!3m2!1sen!2sin!4v1680000000002!5m2!1sen!2sin",
+          "description": "Established in 1983, IGIMS is a leading government super-specialty hospital and medical college in Bihar, offering advanced healthcare and research."
+        },
+        {
+          "name": "Patna Medical College and Hospital (PMCH)",
+          "type": "government",
+          "contact": "0612-2300080, 0612-2300343",
+          "email": "info@pmchpatna.in",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3609.964282019019!2d85.2091444!3d25.6209028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed58e2e2e2e2e2%3A0xabcdefabcdefabcd!2sPMCH%20Patna!5e0!3m2!1sen!2sin!4v1680000000003!5m2!1sen!2sin",
+          "description": "Founded in 1925, PMCH is one of the oldest and most reputed government medical colleges and hospitals in Bihar, serving as a major healthcare hub."
+        },
+        {
+          "name": "Paras HMRI Hospital, Patna",
+          "type": "private",
+          "contact": "0612-7107777, 0612-7107700",
+          "email": "info@parashospitals.com",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3609.964282019019!2d85.0721444!3d25.6129028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed58e2e2e2e2e2%3A0xabcdefabcdefabcd!2sParas%20HMRI%20Hospital%20Patna!5e0!3m2!1sen!2sin!4v1680000000004!5m2!1sen!2sin",
+          "description": "A leading NABH-accredited multi-specialty private hospital in Patna, known for advanced tertiary care and a wide range of specialties."
+        },
+        {
+          "name": "Ford Hospital and Research Centre, Patna",
+          "type": "private",
+          "contact": "+91-9798215882, +91-9386392846",
+          "email": "info@fordhospital.org",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3609.964282019019!2d85.1681444!3d25.6129028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed58e2e2e2e2e2%3A0xabcdefabcdefabcd!2sFord%20Hospital%20Patna!5e0!3m2!1sen!2sin!4v1680000000005!5m2!1sen!2sin",
+          "description": "Established in 2008, Ford Hospital is a modern multi-specialty private hospital in Patna, offering advanced diagnostics, surgery, and critical care."
+        },
+        {
+          "name": "Jay Prabha Medanta Super Specialty Hospital, Patna",
+          "type": "private",
+          "contact": "+91-612-3505050",
+          "email": "info@medanta.org",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3609.964282019019!2d85.1411444!3d25.6099028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed58e2e2e2e2e2%3A0xabcdefabcdefabcd!2sJay%20Prabha%20Medanta%20Patna!5e0!3m2!1sen!2sin!4v1680000000006!5m2!1sen!2sin",
+          "description": "A world-class super specialty hospital in Patna, Medanta brings advanced healthcare, renowned doctors, and cutting-edge technology to Bihar."
+        },
+        {
+          "name": "Ruban Memorial Hospital, Patna",
+          "type": "private",
+          "contact": "+91-612-7104040, +91-612-7104050",
+          "email": "info@rubanhospital.com",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3609.964282019019!2d85.1171444!3d25.6179028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed58e2e2e2e2e2%3A0xabcdefabcdefabcd!2sRuban%20Memorial%20Hospital%20Patna!5e0!3m2!1sen!2sin!4v1680000000007!5m2!1sen!2sin",
+          "description": "Established in 1996, Ruban Memorial Hospital is a leading multi-specialty private hospital in Patna, offering comprehensive healthcare services."
+        },
+        {
+          "name": "Nalanda Medical College and Hospital (NMCH), Patna",
+          "type": "government",
+          "contact": "+91-612-2354871, +91-612-2354872",
+          "email": "principal@nmchpatna.org",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3609.964282019019!2d85.1733161!3d25.6002794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed58e2e2e2e2e2%3A0xabcdefabcdefabcd!2sNalanda%20Medical%20College%20Patna!5e0!3m2!1sen!2sin!4v1680000000008!5m2!1sen!2sin",
+          "description": "Established in 1970, NMCH is a government medical college and hospital in Patna, known for its quality education and healthcare services."
+        },
+        {
+          "name": "BIG Apollo Spectra Hospitals, Patna",
+          "type": "private",
+          "contact": "0612-3540100, 0612-7131415",
+          "email": "info@apollospectrabig.com",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3609.964282019019!2d85.1531444!3d25.6139028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed58e2e2e2e2e2%3A0xabcdefabcdefabcd!2sBIG%20Apollo%20Spectra%20Hospitals%20Patna!5e0!3m2!1sen!2sin!4v1680000000009!5m2!1sen!2sin",
+          "description": "A modern multi-specialty hospital in Patna, BIG Apollo Spectra offers advanced medical care, skilled doctors, and a wide range of specialties."
+        },
+        {
+          "name": "Mediversal Multi Superspecialty Hospital, Patna",
+          "type": "private",
+          "contact": "0612-3500010, 0612-3500110, 0612-3500111",
+          "email": "info@mediversal.in",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3609.964282019019!2d85.1421444!3d25.6109028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed58e2e2e2e2e2%3A0xabcdefabcdefabcd!2sMediversal%20Multi%20Superspecialty%20Hospital%20Patna!5e0!3m2!1sen!2sin!4v1680000000010!5m2!1sen!2sin",
+          "description": "A NABH & NABL certified multi-super specialty hospital in Kankarbagh, Patna, Mediversal is known for advanced medicine and compassionate care."
+        }
+      ]
+    },
+    {
+      "state": "Chandigarh",
+      "hospitals": [
+        {
+          "name": "Fortis Hospital, Mohali",
+          "type": "private",
+          "contact": "+91-172-4692222, +91-172-5021222",
+          "email": "info.mohali@fortishealthcare.com",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3430.013624232839!2d76.7199543151307!3d30.70464898164213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fedc1e2e2e2e2%3A0xabcdefabcdefabcd!2sFortis%20Hospital%20Mohali!5e0!3m2!1sen!2sin!4v1680000000001!5m2!1sen!2sin",
+          "description": "A well-known multi-specialty hospital with a wide range of services, serving the Chandigarh region."
+        },
+        {
+          "name": "Max Super Speciality Hospital, Mohali",
+          "type": "private",
+          "contact": "+91-172-6652000",
+          "email": "info.mohali@maxhealthcare.com",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3430.013624232839!2d76.7229543151307!3d30.70464898164213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fedc1e2e2e2e2%3A0xabcdefabcdefabce!2sMax%20Super%20Speciality%20Hospital%20Mohali!5e0!3m2!1sen!2sin!4v1680000000002!5m2!1sen!2sin",
+          "description": "A prominent hospital offering specialized medical care in the Chandigarh area."
+        },
+        {
+          "name": "Ivy Hospital, Mohali",
+          "type": "private",
+          "contact": "+91-172-7170000",
+          "email": "info@ivyhospital.com",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3430.013624232839!2d76.7299543151307!3d30.70464898164213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fedc1e2e2e2e2%3A0xabcdefabcdefabcf!2sIvy%20Hospital%20Mohali!5e0!3m2!1sen!2sin!4v1680000000003!5m2!1sen!2sin",
+          "description": "Provides a variety of medical and surgical treatments."
+        },
+        {
+          "name": "Apollo Hospitals, Chandigarh",
+          "type": "private",
+          "contact": "+91-172-5088888",
+          "email": "info.chandigarh@apollohospitals.com",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3430.013624232839!2d76.7359543151307!3d30.70464898164213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fedc1e2e2e2e2%3A0xabcdefabcdefabc0!2sApollo%20Hospitals%20Chandigarh!5e0!3m2!1sen!2sin!4v1680000000004!5m2!1sen!2sin",
+          "description": "A part of the Apollo Hospitals group, known for its comprehensive healthcare."
+        },
+        {
+          "name": "Grecian Super Speciality Hospital, Mohali",
+          "type": "private",
+          "contact": "+91-172-4696600",
+          "email": "info@grecianhospital.com",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3430.013624232839!2d76.7419543151307!3d30.70464898164213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fedc1e2e2e2e2%3A0xabcdefabcdefabc1!2sGrecian%20Super%20Speciality%20Hospital%20Mohali!5e0!3m2!1sen!2sin!4v1680000000005!5m2!1sen!2sin",
+          "description": "Offers specialized services in various medical fields."
+        },
+        {
+          "name": "Mukat Hospital and Heart Institute, Chandigarh",
+          "type": "private",
+          "contact": "+91-172-4344444",
+          "email": "info@mukathospital.com",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3430.013624232839!2d76.7479543151307!3d30.70464898164213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fedc1e2e2e2e2%3A0xabcdefabcdefabc2!2sMukat%20Hospital%20and%20Heart%20Institute%20Chandigarh!5e0!3m2!1sen!2sin!4v1680000000006!5m2!1sen!2sin",
+          "description": "Focuses on cardiac care and general medical services."
+        },
+        {
+          "name": "Government Medical College and Hospital (GMCH), Chandigarh",
+          "type": "government",
+          "contact": "+91-172-2601023",
+          "email": "director.gmch-chd@gov.in",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3430.013624232839!2d76.7539543151307!3d30.70464898164213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fedc1e2e2e2e2%3A0xabcdefabcdefabc3!2sGovernment%20Medical%20College%20and%20Hospital%20Chandigarh!5e0!3m2!1sen!2sin!4v1680000000007!5m2!1sen!2sin",
+          "description": "A major government hospital and medical education institution."
+        },
+        {
+          "name": "Post Graduate Institute of Medical Education and Research (PGIMER), Chandigarh",
+          "type": "government",
+          "contact": "+91-172-2747585",
+          "email": "director@pgimer.edu.in",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3430.013624232839!2d76.7599543151307!3d30.70464898164213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fedc1e2e2e2e2%3A0xabcdefabcdefabc4!2sPGIMER%20Chandigarh!5e0!3m2!1sen!2sin!4v1680000000008!5m2!1sen!2sin",
+          "description": "A premier medical research and healthcare institution."
+        },
+        {
+          "name": "Government Multi-Specialty Hospital, Sector 16, Chandigarh",
+          "type": "government",
+          "contact": "+91-172-2707250",
+          "email": "gmssector16-chd@gov.in",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3430.013624232839!2d76.7659543151307!3d30.70464898164213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fedc1e2e2e2e2%3A0xabcdefabcdefabc5!2sGovernment%20Multi-Specialty%20Hospital%20Sector%2016%20Chandigarh!5e0!3m2!1sen!2sin!4v1680000000009!5m2!1sen!2sin",
+          "description": "Provides a range of medical and surgical services."
+        },
+        {
+          "name": "Civil Hospital, Sector 22, Chandigarh",
+          "type": "government",
+          "contact": "+91-172-2708585",
+          "email": "civilhospital22-chd@gov.in",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3430.013624232839!2d76.7719543151307!3d30.70464898164213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fedc1e2e2e2e2%3A0xabcdefabcdefabc6!2sCivil%20Hospital%20Sector%2022%20Chandigarh!5e0!3m2!1sen!2sin!4v1680000000010!5m2!1sen!2sin",
+          "description": "A general hospital offering basic and specialized healthcare services."
+        }
+      ]
+    },
+    {
+      "state": "Chhattisgarh",
+      "hospitals": [
+        {
+          "name": "AIIMS Raipur (All India Institute of Medical Sciences)",
+          "type": "government",
+          "contact": "+91-771-2572240",
+          "email": "dean@aiimsraipur.edu.in",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3731.013624232839!2d81.5775056!3d21.2573871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a28ddc1e2e2e2e2%3A0xabcdefabcdefabcd!2sAIIMS%20Raipur!5e0!3m2!1sen!2sin!4v1680000000001!5m2!1sen!2sin",
+          "description": "A prominent government medical institution established in 2012, providing advanced healthcare and medical education in central India."
+        },
+        {
+          "name": "Dr. Bhimrao Ambedkar Memorial Hospital (MECAHARA), Raipur",
+          "type": "government",
+          "contact": "+91-771-2890113",
+          "email": "bramhospital@gmail.com",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3731.013624232839!2d81.6295056!3d21.2573871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a28ddc1e2e2e2e2%3A0xabcdefabcdefabce!2sDr.%20Bhimrao%20Ambedkar%20Memorial%20Hospital%20Raipur!5e0!3m2!1sen!2sin!4v1680000000002!5m2!1sen!2sin",
+          "description": "A major government hospital, also known as MECAHARA, serving as a key healthcare provider in Raipur."
+        },
+        {
+          "name": "MMI Narayana Multispeciality Hospital, Raipur",
+          "type": "private",
+          "contact": "+91-771-6666666",
+          "email": "info@nhraipur.org",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3731.013624232839!2d81.6355056!3d21.2573871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a28ddc1e2e2e2e2%3A0xabcdefabcdefabcf!2sMMI%20Narayana%20Multispeciality%20Hospital%20Raipur!5e0!3m2!1sen!2sin!4v1680000000003!5m2!1sen!2sin",
+          "description": "A well-regarded private hospital offering multispeciality healthcare services in Raipur."
+        },
+        {
+          "name": "Ramkrishna CARE Hospitals, Raipur",
+          "type": "private",
+          "contact": "+91-771-6165656",
+          "email": "info@carehospitals.com",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3731.013624232839!2d81.6415056!3d21.2573871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a28ddc1e2e2e2e2%3A0xabcdefabcdefabc0!2sRamkrishna%20CARE%20Hospitals%20Raipur!5e0!3m2!1sen!2sin!4v1680000000004!5m2!1sen!2sin",
+          "description": "A significant private healthcare provider with a wide range of specialties and advanced facilities."
+        },
+        {
+          "name": "Suyash Hospital, Raipur",
+          "type": "private",
+          "contact": "+91-771-2575275, +91-771-2572222",
+          "email": "operations@suyashhealth.co.in",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3731.013624232839!2d81.6475056!3d21.2573871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a28ddc1e2e2e2e2%3A0xabcdefabcdefabc1!2sSuyash%20Hospital%20Raipur!5e0!3m2!1sen!2sin!4v1680000000005!5m2!1sen!2sin",
+          "description": "A prominent private hospital in Raipur, known for its super-speciality healthcare services."
+        },
+        {
+          "name": "Sri Sathya Sai Sanjeevani Hospital, Naya Raipur",
+          "type": "private",
+          "contact": "+91-8010119000",
+          "email": "info.raipur@srisathyasaisanjeevani.com",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3731.013624232839!2d81.6535056!3d21.2573871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a28ddc1e2e2e2e2%3A0xabcdefabcdefabc2!2sSri%20Sathya%20Sai%20Sanjeevani%20Hospital%20Naya%20Raipur!5e0!3m2!1sen!2sin!4v1680000000006!5m2!1sen!2sin",
+          "description": "A private hospital specializing in pediatric cardiac care, providing free treatment for children."
+        },
+        {
+          "name": "NKH Superspecialty Hospital, Korba",
+          "type": "private",
+          "contact": "+91-7759-227500",
+          "email": "sbsh.korba@gmail.com",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3731.013624232839!2d82.8675056!3d22.3453871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a28ddc1e2e2e2e2%3A0xabcdefabcdefabc3!2sNKH%20Superspecialty%20Hospital%20Korba!5e0!3m2!1sen!2sin!4v1680000000007!5m2!1sen!2sin",
+          "description": "A private superspecialty hospital in Korba, offering advanced medical care."
+        },
+        {
+          "name": "Apollo BSR Hospital, Bhilai",
+          "type": "private",
+          "contact": "+91-788-4088888",
+          "email": "info@apollobsr.com",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3731.013624232839!2d81.3495056!3d21.1933871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a28ddc1e2e2e2e2%3A0xabcdefabcdefabc4!2sApollo%20BSR%20Hospital%20Bhilai!5e0!3m2!1sen!2sin!4v1680000000008!5m2!1sen!2sin",
+          "description": "A private hospital in Bhilai, part of the Apollo group, known for comprehensive healthcare."
+        },
+        {
+          "name": "Balaji Super Speciality Hospital, Raipur",
+          "type": "private",
+          "contact": "+91-771-4241000",
+          "email": "info@shribalajihospital.com",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3731.013624232839!2d81.6595056!3d21.2573871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a28ddc1e2e2e2e2%3A0xabcdefabcdefabc5!2sBalaji%20Super%20Speciality%20Hospital%20Raipur!5e0!3m2!1sen!2sin!4v1680000000009!5m2!1sen!2sin",
+          "description": "A private super speciality hospital in Raipur, offering a wide range of medical services."
+        },
+        {
+          "name": "Medi Health Hospital, Bilaspur",
+          "type": "private",
+          "contact": "+91-7752-220742",
+          "email": "info@gmcraigarh.edu.in",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3731.013624232839!2d82.1405056!3d22.0793871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a28ddc1e2e2e2e2%3A0xabcdefabcdefabc6!2sMedi%20Health%20Hospital%20Bilaspur!5e0!3m2!1sen!2sin!4v1680000000010!5m2!1sen!2sin",
+          "description": "A private hospital in Bilaspur, providing quality healthcare services."
+        }
+      ]
+    },
+    {
+      "state": "Goa",
+      "hospitals": [
+        {
+          "name": "Goa Medical College & Hospital",
+          "type": "government",
+          "contact": "+91-832-2458700",
+          "email": "dean-gmc.goa@nic.in",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.013624232839!2d73.85778!3d15.46306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfb7e2e2e2e2e2%3A0xabcdefabcdefabcd!2sGoa%20Medical%20College%20and%20Hospital!5e0!3m2!1sen!2sin!4v1680000000001!5m2!1sen!2sin",
+          "description": "A premier teaching hospital and the largest in Goa, established in 1842, offering comprehensive medical services, research, and education. Located in Bambolim."
+        },
+        {
+          "name": "Mapusa District Hospital",
+          "type": "government",
+          "contact": "+91-832-2265119, +91-832-2262372",
+          "email": "asilohospital@gmail.com",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.013624232839!2d73.818!3d15.591!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfb7e2e2e2e2e2%3A0xabcdefabcdefabcd!2sMapusa%20District%20Hospital!5e0!3m2!1sen!2sin!4v1680000000002!5m2!1sen!2sin",
+          "description": "A major government hospital in Mapusa, North Goa, providing a wide range of healthcare services."
+        },
+        {
+          "name": "Hospicio Hospital, Margao",
+          "type": "government",
+          "contact": "+91-832-2735766, +91-832-2705664, +91-832-2705754, +91-832-2705167, +91-832-2735972",
+          "email": "hospiciomargao@gmail.com",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.013624232839!2d73.945!3d15.275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfb7e2e2e2e2e2%3A0xabcdefabcdefabcd!2sHospicio%20Hospital!5e0!3m2!1sen!2sin!4v1680000000003!5m2!1sen!2sin",
+          "description": "A major hospital in Margao, South Goa, offering a range of medical services."
+        },
+        {
+          "name": "Subdistrict Hospital, Ponda",
+          "type": "government",
+          "contact": "+91-832-2312116, +91-832-2312115",
+          "email": "subdistricthospitalponda@gmail.com",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.013624232839!2d74.017!3d15.402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfb7e2e2e2e2e2%3A0xabcdefabcdefabcd!2sSubdistrict%20Hospital%20Ponda!5e0!3m2!1sen!2sin!4v1680000000004!5m2!1sen!2sin",
+          "description": "A government hospital providing healthcare services in the Ponda area."
+        },
+        {
+          "name": "ESI Hospital, Margao",
+          "type": "government",
+          "contact": "+91-832-2735766",
+          "email": "hospiciomargao@gmail.com",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.013624232839!2d73.945!3d15.275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfb7e2e2e2e2e2%3A0xabcdefabcdefabcd!2sESI%20Hospital%20Margao!5e0!3m2!1sen!2sin!4v1680000000005!5m2!1sen!2sin",
+          "description": "Provides healthcare services to employees and their families in Margao."
+        },
+        {
+          "name": "Chicalim Sub District Hospital",
+          "type": "government",
+          "contact": "+91-832-2540555, +91-832-2540864",
+          "email": "cottagehospitalgoa@gmail.com",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.013624232839!2d73.825!3d15.399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfb7e2e2e2e2e2%3A0xabcdefabcdefabcd!2sChicalim%20Sub%20District%20Hospital!5e0!3m2!1sen!2sin!4v1680000000006!5m2!1sen!2sin",
+          "description": "Located near the airport in Vasco, this hospital serves the Chicalim area."
+        },
+        {
+          "name": "Healthway Hospitals",
+          "type": "private",
+          "contact": "+91-832-2467666",
+          "email": "info@healthwayhospitals.com",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.013624232839!2d73.900!3d15.500!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfb7e2e2e2e2e2%3A0xabcdefabcdefabcd!2sHealthway%20Hospitals!5e0!3m2!1sen!2sin!4v1680000000007!5m2!1sen!2sin",
+          "description": "A well-regarded private multispeciality hospital in Old Goa, offering a wide range of super-specialty services."
+        },
+        {
+          "name": "Victor Hospital",
+          "type": "private",
+          "contact": "+91-832-6728888, +91-8888884718",
+          "email": "info@victorhospital.com",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.013624232839!2d73.950!3d15.275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfb7e2e2e2e2e2%3A0xabcdefabcdefabcd!2sVictor%20Hospital!5e0!3m2!1sen!2sin!4v1680000000008!5m2!1sen!2sin",
+          "description": "A notable private hospital in Margao, Goa, with advanced medical and surgical facilities."
+        },
+        {
+          "name": "Galaxy Hospital",
+          "type": "private",
+          "contact": "+91-832-2268686",
+          "email": "info@galaxyhospitalgoa.com",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.013624232839!2d73.825!3d15.591!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfb7e2e2e2e2e2%3A0xabcdefabcdefabcd!2sGalaxy%20Hospital!5e0!3m2!1sen!2sin!4v1680000000009!5m2!1sen!2sin",
+          "description": "A private healthcare facility in Mapusa, Goa, known for its multi-specialty services."
+        },
+        {
+          "name": "Criti Care Children's Hospital",
+          "type": "private",
+          "contact": "+91-832-2735766",
+          "email": "info@criticareasiahospital.com",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.013624232839!2d73.950!3d15.275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfb7e2e2e2e2e2%3A0xabcdefabcdefabcd!2sCriti%20Care%20Children's%20Hospital!5e0!3m2!1sen!2sin!4v1680000000010!5m2!1sen!2sin",
+          "description": "A private hospital in Goa focusing on pediatric care."
+        },
+        {
+          "name": "Mother Care Hospital",
+          "type": "private",
+          "contact": "+91-832-2735766",
+          "email": "hospitalclassic@gmail.com",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.013624232839!2d73.950!3d15.275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfb7e2e2e2e2e2%3A0xabcdefabcdefabcd!2sMother%20Care%20Hospital!5e0!3m2!1sen!2sin!4v1680000000011!5m2!1sen!2sin",
+          "description": "A private hospital in Goa providing a range of healthcare services."
+        }
+      ]
+    },
+    {
+      "state": "Gujarat",
+      "hospitals": [
+        {
+          "name": "Civil Hospital, Ahmedabad",
+          "type": "government",
+          "contact": "+91-79-22681000",
+          "email": "info@civilhospitalamdavad.org",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.013624232839!2d72.605075!3d23.051362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e84f2e2e2e2e2%3A0xabcdefabcdefabcd!2sCivil%20Hospital%20Ahmedabad!5e0!3m2!1sen!2sin!4v1680000000101!5m2!1sen!2sin",
+          "description": "A large multi-specialty government hospital in Ahmedabad, one of the largest in Asia, providing a vast range of services and free treatment for most patients."
+        },
+        {
+          "name": "Sardar Vallabhbhai Patel Institute (SVP Hospital), Ahmedabad",
+          "type": "government",
+          "contact": "+91-79-26576600",
+          "email": "info@svphospital.com",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.013624232839!2d72.571667!3d23.019389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e84f2e2e2e2e2%3A0xabcdefabcdefabcd!2sSVP%20Hospital!5e0!3m2!1sen!2sin!4v1680000000102!5m2!1sen!2sin",
+          "description": "A modern government hospital and medical college in Ahmedabad, known for specialized departments like Oncology and Nephrology, with 1,500 beds and advanced facilities."
+        },
+        {
+          "name": "Sir Sayajirao General (SSG) Hospital, Vadodara",
+          "type": "government",
+          "contact": "+91-265-2421594",
+          "email": "dean@medicalcollegebaroda.edu.in",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.013624232839!2d73.1812!3d22.3072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fc8e2e2e2e2e2%3A0xabcdefabcdefabcd!2sSSG%20Hospital%20Vadodara!5e0!3m2!1sen!2sin!4v1680000000103!5m2!1sen!2sin",
+          "description": "A multi-specialty government hospital in Vadodara, affiliated with Medical College Baroda, offering comprehensive healthcare services."
+        },
+        {
+          "name": "Government Medical College, Bhavnagar",
+          "type": "government",
+          "contact": "+91-278-2523201",
+          "email": "dean.health.bhavnagar@gmail.com",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.013624232839!2d72.13694!3d21.76861!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e84f2e2e2e2e2%3A0xabcdefabcdefabcd!2sGovernment%20Medical%20College%20Bhavnagar!5e0!3m2!1sen!2sin!4v1680000000104!5m2!1sen!2sin",
+          "description": "A government medical college and hospital in Bhavnagar, providing comprehensive healthcare and medical education."
+        },
+        {
+          "name": "Pandit Deendayal Upadhyay Medical College, Rajkot",
+          "type": "government",
+          "contact": "+91-281-2458323",
+          "email": "deanrajkot@yahoo.co.in",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.013624232839!2d70.7985!3d22.3052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e84f2e2e2e2e2%3A0xabcdefabcdefabcd!2sPandit%20Deendayal%20Upadhyay%20Medical%20College%20Rajkot!5e0!3m2!1sen!2sin!4v1680000000105!5m2!1sen!2sin",
+          "description": "A government medical college and hospital in Rajkot, providing general medicine, surgery, and obstetrics services."
+        },
+        {
+          "name": "Shalby Hospitals, Ahmedabad",
+          "type": "private",
+          "contact": "+91-7069001001",
+          "email": "info@shalby.org",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.013624232839!2d72.515!3d23.030!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e84f2e2e2e2e2%3A0xabcdefabcdefabcd!2sShalby%20Hospitals%20Ahmedabad!5e0!3m2!1sen!2sin!4v1680000000106!5m2!1sen!2sin",
+          "description": "A well-known chain of multi-specialty hospitals in Ahmedabad, focusing on quality, affordability, and advanced medical care."
+        },
+        {
+          "name": "CIMS Hospital, Ahmedabad",
+          "type": "private",
+          "contact": "+91-79-2771 2771",
+          "email": "info@cims.org",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.013624232839!2d72.515!3d23.030!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e84f2e2e2e2e2%3A0xabcdefabcdefabcd!2sCIMS%20Hospital%20Ahmedabad!5e0!3m2!1sen!2sin!4v1680000000107!5m2!1sen!2sin",
+          "description": "A multi-specialty hospital in Ahmedabad with advanced facilities, known for cardiac care, oncology, and organ transplants."
+        },
+        {
+          "name": "HCG Hospital, Ahmedabad",
+          "type": "private",
+          "contact": "+91-79-40010108",
+          "email": "info@hcghospitals.in",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.013624232839!2d72.515!3d23.030!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e84f2e2e2e2e2%3A0xabcdefabcdefabcd!2sHCG%20Hospital%20Ahmedabad!5e0!3m2!1sen!2sin!4v1680000000108!5m2!1sen!2sin",
+          "description": "A leading private hospital in Ahmedabad, specializing in cancer treatment and advanced medical care."
+        },
+        {
+          "name": "Sterling Hospitals, Ahmedabad",
+          "type": "private",
+          "contact": "+91-98-9898-7878",
+          "email": "info@sterlinghospitals.com",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.013624232839!2d72.515!3d23.030!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e84f2e2e2e2e2%3A0xabcdefabcdefabcd!2sSterling%20Hospitals%20Ahmedabad!5e0!3m2!1sen!2sin!4v1680000000109!5m2!1sen!2sin",
+          "description": "A multi-specialty hospital in Ahmedabad offering advanced medical facilities and experienced doctors."
+        },
+        {
+          "name": "Apollo Hospitals City Center, Ahmedabad",
+          "type": "private",
+          "contact": "+91-79-66701800",
+          "email": "info@apolloahd.com",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.013624232839!2d72.515!3d23.030!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e84f2e2e2e2e2%3A0xabcdefabcdefabcd!2sApollo%20Hospitals%20City%20Center%20Ahmedabad!5e0!3m2!1sen!2sin!4v1680000000110!5m2!1sen!2sin",
+          "description": "A multi-specialty hospital in Ahmedabad with advanced medical facilities and experienced doctors, part of the Apollo Hospitals group."
+        }
+      ]
+    }
+  ]
+} 

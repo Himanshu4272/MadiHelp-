@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediHelp! - State Hospitals</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="animated-bg"></div>
+    <svg class="floating-cross" viewBox="0 0 60 60" width="60" height="60">
+        <rect x="25" y="10" width="10" height="40" rx="5" fill="#38bdf8">
+            <animate attributeName="y" values="10;15;10" dur="2s" repeatCount="indefinite"/>
+        </rect>
+        <rect x="10" y="25" width="40" height="10" rx="5" fill="#38bdf8">
+            <animate attributeName="x" values="10;15;10" dur="2s" repeatCount="indefinite"/>
+        </rect>
+    </svg>
+    <div class="animated-heart">
+        <svg viewBox="0 0 32 29.6" width="40" height="36">
+            <path d="M23.6,0c-2.7,0-5.1,1.3-6.6,3.3C15.5,1.3,13.1,0,10.4,0C4.7,0,0,4.7,0,10.4c0,6.1,5.6,11.1,14.1,18.7l1.3,1.2l1.3-1.2C26.4,21.5,32,16.5,32,10.4C32,4.7,27.3,0,23.6,0z" fill="#ef4444">
+                <animateTransform attributeName="transform" type="scale" values="1;1.15;1" dur="1.2s" repeatCount="indefinite"/>
+            </path>
+        </svg>
+    </div>
+    <nav class="navbar">
+        <div class="nav-title">MediHelp!</div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="index.html#contact" class="nav-link">Contact Us</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1 class="main-title" id="state-title">Hospitals in </h1>
+        <div id="hospital-sections">
+            <h2 class="section-title gov-title"><span class="badge gov-badge">🏥 Government Hospitals</span></h2>
+            <p class="section-desc gov-desc">Trusted and accessible public healthcare institutions, serving the community with dedication and care.</p>
+            <div id="gov-hospitals" class="hospital-list"></div>
+            <h2 class="section-title priv-title"><span class="badge priv-badge">🌟 Private Hospitals</span></h2>
+            <p class="section-desc priv-desc">Premium private healthcare centers, known for advanced facilities, personalized service, and modern technology.</p>
+            <div id="private-hospitals" class="hospital-list"></div>
+        </div>
+    </div>
+    <script>
+    // Get state from URL
+    function getStateFromUrl() {
+        const params = new URLSearchParams(window.location.search);
+        return params.get('state');
+    }
+    const stateName = getStateFromUrl();
+    document.getElementById('state-title').textContent = `Hospitals in ${stateName}`;
+    // Load hospitals.json and show hospitals for this state
+    fetch('hospitals.json')
+      .then(res => res.json())
+      .then(data => {
+        const stateData = (data.hospitals || []).find(s => s.state === stateName);
+        const govDiv = document.getElementById('gov-hospitals');
+        const privDiv = document.getElementById('private-hospitals');
+        govDiv.innerHTML = '';
+        privDiv.innerHTML = '';
+        if (stateData && stateData.hospitals.length > 0) {
+          stateData.hospitals.forEach(hospital => {
+            const card = document.createElement('div');
+            card.className = 'hospital-card';
+            card.innerHTML = `
+              <h3>${hospital.name} <span class="type-badge ${hospital.type === 'government' ? 'gov-badge' : 'priv-badge'}">${hospital.type === 'government' ? 'Govt.' : 'Private'}</span></h3>
+              <p><b>Contact:</b> ${hospital.contact}</p>
+              <p><b>Email:</b> ${hospital.email}</p>
+              <iframe src="${hospital.maps}" allowfullscreen="" loading="lazy"></iframe>
+            `;
+            if (hospital.type === 'government') {
+              govDiv.appendChild(card);
+            } else {
+              privDiv.appendChild(card);
+            }
+          });
+        } else {
+          govDiv.innerHTML = '<p>No government hospitals listed for this state.</p>';
+          privDiv.innerHTML = '<p>No private hospitals listed for this state.</p>';
+        }
+      });
+    </script>
+</body>
+</html> 
